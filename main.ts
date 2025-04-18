@@ -68,6 +68,7 @@ async function downloadAudio(urls: string[]) {
             console.error(`Error while downloading ${error}`);
         }
     }));
+    console.log("\nDownload complete.");
     main();
     return;
 }
