@@ -4,20 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cli": "nodemon --exec ts-node ./main.ts --watch"
+    "edit": "nodemon --exec ts-node ./main.ts --watch",
+    "cli": "ts-node ./main.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/cli-progress": "^3.11.6",
-    "@types/node": "^22.13.14",
+    "@types/node": "^22.15.30",
     "cli-progress": "^3.12.0",
-    "nodemon": "^3.1.9",
-    "ytdlp-nodejs": "^2.0.4"
+    "nodemon": "^3.1.10",
+    "ytdlp-nodejs": "^2.3.0"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
-    "tsx": "^4.19.3"
+    "tsx": "^4.19.4"
   }
 }
